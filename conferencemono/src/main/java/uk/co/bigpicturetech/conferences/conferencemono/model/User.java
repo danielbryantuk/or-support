@@ -15,7 +15,7 @@ public class User {
     @GenericGenerator(name = "uuid", strategy = "uuid2")
     private UUID id;
     private String firstName;
-    private String surnameName;
+    private String surname;
     private String emailAddress;
     private String telephoneNumber;
     private String twitterHandle;
@@ -36,12 +36,12 @@ public class User {
         this.firstName = firstName;
     }
 
-    public String getSurnameName() {
-        return surnameName;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setSurnameName(String surnameName) {
-        this.surnameName = surnameName;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     public String getEmailAddress() {
